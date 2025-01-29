@@ -1,11 +1,149 @@
-html body {
-    height: 100%;
+body {
+    height: 100vh;
     width: 100%;
     background-color: #2e3440;
     font-family: 'Roboto';
+    scroll-behavior: smooth;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin: 0;
 }
 /*PC*/
 @media screen and (max-width: 600px) {
+    .navBlock {
+        width: 95%;
+        height: 8%;
+        margin-left: 2%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: #3b4252;
+        position: absolute;
+        top: 0;
+        margin-top: 2%;
+        right: 0;
+        margin-right: 2%;
+    }
+    .navBlock i {
+        font-size: 2rem;
+        color: #d8dee9;
+        right: 0;
+        position: absolute;
+        padding: 16px;
+        cursor: pointer;
+        margin-right: 2%;
+    }
+    .headerBlock {
+        height: 26%;
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-right: 2%;
+        width: 95%;
+        position: absolute;
+        background-color: #3b4252;
+        top: 11%;
+        left: 0;
+        border-radius: 15px;
+        border: solid 0;
+    }
+    .headerBlock h1 {
+        color: #d8dee9;
+        margin: 5%;
+        font-size: 2.5rem;
+    }
+    .statsBlock {
+        height: 20%;
+        top: 40%;
+        position: absolute;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: transparent;
+        left: 0;
+        width: 95%;
+        margin-right: 2%;
+        margin-left: 2%;
+        display: inline-block;
+    }
+    .personalBlock {
+        top: 62%;
+        border-radius: 15px;
+        height: 46%;
+        background-color: transparent;
+        border: solid 0;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .fotoHolder {
+        display: none !important;
+    }
+    .nameHolder {
+        background-color: #3b4252;
+        width: 95%;
+        margin-left: 2%;
+        position: absolute;
+        top: 0;
+        height: 20%;
+        border-radius: 15px;
+        right: 0;
+        border: solid 0;
+    }
+    .locationHolder {
+        background-color: #3b4252;
+        width: 95%;
+        margin-left: 2%;
+        position: absolute;
+        top: 20%;
+        margin-top: 2%;
+        height: 55%;
+        border-radius: 15px;
+        right: 0;
+        border: solid 0;
+    }
+    .socialHolder {
+        background-color: #3b4252;
+        width: 95%;
+        margin-left: 4.5%;
+        position: absolute;
+        bottom: 0%;
+        left: 0;
+        height: 20%;
+        border-radius: 15px;
+        border: solid 0;
+    }
+    .projectHolder {
+        height: 30%;
+        width: 95%;
+        background-color: #3b4252;
+        border-radius: 15px;
+        border: solid 0;
+        top: 110%;
+        margin-right: 2%;
+        margin-left: 2%;
+        left: 0;
+        position: absolute;
+    }
+    .container {
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+        position: absolute;
+        background-color: transparent;
+        border: solid 0;
+    }
+    .aboutHolder {
+        width: 95%;
+        margin-left: 2%;
+        background-color: #3b4252;
+        border: solid 0;
+        border-radius: 15px;
+        height: 30%;
+        top: 142%;
+        position: absolute;
+    }
+
 
 }
 /*Mobile*/
@@ -38,26 +176,6 @@ html body {
         width: 40%;
         display: inline-block;
         margin-left: 2%;
-    }
-    .statOne, .statThree, .statTwo {
-        height: 100%;
-        width: 30%;
-        border: solid 0;
-        position: absolute;
-        border-radius: 15px;
-        top: 0;
-    }
-    .statOne {
-        left: 0;
-        background-color: #8fbcbb;
-    }
-    .statTwo {
-        left: 34%;
-        background-color: #ebcb8b;
-    }
-    .statThree {
-        right: 1%;
-        background-color: #bf616a;
     }
     .navBlock {
         width: 52%;
@@ -157,8 +275,26 @@ html body {
         height: 30%;
         bottom: 0;
         position: absolute;
-
-
     }
+}
+.statOne, .statThree, .statTwo {
+    height: 100%;
+    width: 30%;
+    border: solid 0;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+}
+.statOne {
+    left: 1%;
+    background-color: #8fbcbb;
+}
+.statTwo {
+    left: 35%;
+    background-color: #ebcb8b;
+}
+.statThree {
+    right: 1%;
+    background-color: #bf616a;
 }
 

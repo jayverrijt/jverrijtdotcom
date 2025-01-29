@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="container">
     <div class="headerBlock">
         <h1>Breng je geweldige ideeen tot leven met Code</h1>
     </div>
@@ -42,5 +43,6 @@
     </div>
     <div class="projectHolder"></div>
     <div class="aboutHolder"></div>
+</div>
 </body>
 </html>
