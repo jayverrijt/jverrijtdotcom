@@ -1,0 +1,164 @@
+html body {
+    height: 100%;
+    width: 100%;
+    background-color: #2e3440;
+    font-family: 'Roboto';
+}
+/*PC*/
+@media screen and (max-width: 600px) {
+
+}
+/*Mobile*/
+@media screen and (min-width: 600px) {
+    .headerBlock {
+        height: 26%;
+        margin-left: 2%;
+        margin-top: 2%;
+        width: 40%;
+        position: absolute;
+        background-color: #3b4252;
+        top: 0;
+        left: 0;
+        border-radius: 15px;
+        border: solid 0;
+    }
+    .headerBlock h1 {
+        color: #d8dee9;
+        margin: 2%;
+        font-size: 3.2rem;
+    }
+    .statsBlock {
+        height: 25%;
+        top: 35%;
+        position: absolute;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: transparent;
+        left: 0;
+        width: 40%;
+        display: inline-block;
+        margin-left: 2%;
+    }
+    .statOne, .statThree, .statTwo {
+        height: 100%;
+        width: 30%;
+        border: solid 0;
+        position: absolute;
+        border-radius: 15px;
+        top: 0;
+    }
+    .statOne {
+        left: 0;
+        background-color: #8fbcbb;
+    }
+    .statTwo {
+        left: 34%;
+        background-color: #ebcb8b;
+    }
+    .statThree {
+        right: 1%;
+        background-color: #bf616a;
+    }
+    .navBlock {
+        width: 52%;
+        height: 8%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: #3b4252;
+        position: absolute;
+        top: 0;
+        margin-top: 2%;
+        right: 0;
+        margin-right: 2%;
+    }
+    .navBlock i {
+        font-size: 2rem;
+        color: #d8dee9;
+        right: 0;
+        position: absolute;
+        padding: 16px;
+        cursor: pointer;
+        margin-right: 2%;
+    }
+    .personalBlock {
+        top: 14%;
+        border-radius: 15px;
+        height: 46%;
+        background-color: transparent;
+        border: solid 0;
+        width: 52%;
+        position: absolute;
+        right: 0;
+        margin-right: 2%;
+    }
+    .fotoHolder {
+        background-color: #5e81ac;
+        height: 100%;
+        width: 32%;
+        border-radius: 15px;
+        border: solid 0;
+        left: 0;
+    }
+    .nameHolder {
+        background-color: #3b4252;
+        width: 65%;
+        margin-left: 2%;
+        position: absolute;
+        top: 0;
+        height: 20%;
+        border-radius: 15px;
+        right: 0;
+        border: solid 0;
+    }
+    .locationHolder {
+        background-color: #3b4252;
+        width: 65%;
+        margin-left: 2%;
+        position: absolute;
+        top: 20%;
+        margin-top: 2%;
+        height: 55%;
+        border-radius: 15px;
+        right: 0;
+        border: solid 0;
+    }
+    .socialHolder {
+        background-color: #3b4252;
+        width: 65%;
+        margin-left: 2%;
+        position: absolute;
+        bottom: 0;
+        margin-top: 2%;
+        height: 16%;
+        border-radius: 15px;
+        right: 0;
+        border: solid 0;
+    }
+    .projectHolder {
+        height: 30%;
+        bottom: 0;
+        margin-bottom: 2%;
+        width: 60%;
+        background-color: #3b4252;
+        border-radius: 15px;
+        border: solid 0;
+        margin-left: 2%;
+        left: 0;
+        position: absolute;
+    }
+    .aboutHolder {
+        width: 35%;
+        right: 0;
+        margin-right: 2%;
+        background-color: #3b4252;
+        border: solid 0;
+        border-radius: 15px;
+        margin-bottom: 2%;
+        height: 30%;
+        bottom: 0;
+        position: absolute;
+
+
+    }
+}
+
