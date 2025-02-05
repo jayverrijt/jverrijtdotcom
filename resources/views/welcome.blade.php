@@ -60,19 +60,19 @@
         </div>
         <div class="socialHolder">
             <div class="LinkedIn">
-                <i class="fab fa-linkedin-in"><a href="https://linkedin.com/in/jayverrijt0492"></a></i>
+                <i class="fab fa-linkedin-in" onclick="window.open('https://www.linkedin.com/in/jayverrijt0/')"><a href=""></a></i>
             </div>
             <div class="Instagram">
-                <i class="fab fa-instagram"><a href=""></a></i>
+                <i class="fab fa-instagram" onclick="window.open('https://www.instagram.com/jayzeverrijt0/')"><a href=""></a></i>
             </div>
             <div class="Snapchat">
-                <i class="fab fa-snapchat-ghost"><a href=""></a></i>
+                <i class="fab fa-snapchat-ghost" onclick="window.open('https://snapchat.com/t/1CuMfaBb')"><a href=""></a></i>
             </div>
             <div class="GitHub">
-                <i class="fab fa-github"><a href=""></a></i>
+                <i class="fab fa-github" onclick="window.open('https://github.com/jayverrijt')"><a href=""></a></i>
             </div>
             <div class="Mail">
-                <i class="fas fa-at"><a href=""></a></i>
+                <i class="fas fa-at" onclick="window.open('mailto:no-reply@jverrijt.com')"><a href=""></a></i>
             </div>
         </div>
     </div>
