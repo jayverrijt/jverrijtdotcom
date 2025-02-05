@@ -25,21 +25,56 @@
 <body>
 <div class="container">
     <div class="headerBlock">
-        <h1>Breng je geweldige ideeen tot leven met Code</h1>
+        <h1>Breng Je Geweldige Ideeen Tot Leven</h1>
     </div>
     <div class="statsBlock">
-        <div class="statOne"></div>
-        <div class="statTwo"></div>
-        <div class="statThree"></div>
+        <div class="statOne">
+            <h1>2+</h1>
+            <p>Jaren ervaring</p>
+        </div>
+        <div class="statTwo">
+            <h1>17+</h1>
+            <p>Projecten gedaan</p>
+        </div>
+        <div class="statThree">
+            <h1>4+</h1>
+            <p>Clienten</p>
+        </div>
     </div>
     <div class="navBlock">
         <i class="fas fa-bars"></i>
     </div>
     <div class="personalBlock">
         <div class="fotoHolder"></div>
-        <div class="nameHolder"></div>
-        <div class="locationHolder"></div>
-        <div class="socialHolder"></div>
+        <div class="nameHolder">
+            <p>Naam:</p>
+            <h1>Jayze Verrijt</h1>
+        </div>
+        <div class="locationHolder">
+            <div class="locationInfoHolder">
+                <p>Locatie:</p>
+                <h1>Helmond, NB</h1>
+            </div>
+            <div class="locationImgHolder">
+            </div>
+        </div>
+        <div class="socialHolder">
+            <div class="LinkedIn">
+                <i class="fab fa-linkedin-in"><a href="https://linkedin.com/in/jayverrijt0492"></a></i>
+            </div>
+            <div class="Instagram">
+                <i class="fab fa-instagram"><a href=""></a></i>
+            </div>
+            <div class="Snapchat">
+                <i class="fab fa-snapchat-ghost"><a href=""></a></i>
+            </div>
+            <div class="GitHub">
+                <i class="fab fa-github"><a href=""></a></i>
+            </div>
+            <div class="Mail">
+                <i class="fas fa-at"><a href=""></a></i>
+            </div>
+        </div>
     </div>
     <div class="projectHolder"></div>
     <div class="aboutHolder"></div>

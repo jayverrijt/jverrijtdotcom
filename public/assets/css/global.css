@@ -8,7 +8,7 @@ body {
     overflow-x: hidden !important;
     margin: 0;
 }
-/*PC*/
+/*Mobile*/
 @media screen and (max-width: 600px) {
     .navBlock {
         width: 95%;
@@ -143,11 +143,361 @@ body {
         top: 142%;
         position: absolute;
     }
-
-
+    .statOne h1 {
+        text-align: center;
+        position: relative;
+        font-size: 3rem;
+        color: #d8dee9;
+    }
+    .statOne p {
+        font-size: 1rem;
+        width: 90%;
+        left: 5%;
+        bottom: 5%;
+        position: absolute;
+        font-weight: 400;
+        color: #d8dee9;
+        text-align: center;
+    }
+    .statTwo h1 {
+        text-align: center;
+        position: relative;
+        font-size: 3rem;
+        color: #d8dee9;
+    }
+    .statTwo p {
+        font-size: 1rem;
+        width: 90%;
+        left: 5%;
+        bottom: 5%;
+        position: absolute;
+        font-weight: 400;
+        color: #d8dee9;
+        text-align: center;
+    }
+    .statThree h1 {
+        text-align: center;
+        position: relative;
+        font-size: 3rem;
+        color: #d8dee9;
+    }
+    .statThree p {
+        font-size: 1rem;
+        width: 90%;
+        left: 5%;
+        bottom: 5%;
+        position: absolute;
+        font-weight: 400;
+        color: #d8dee9;
+        text-align: center;
+    }
+    .nameHolder p {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: 200;
+        margin-left: 5%;
+        left: 0;
+    }
+    .nameHolder h1 {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        margin-right: 10%;
+        text-align: end;
+        font-weight: 500;
+        padding: 2px;
+        font-size: 1.8rem;
+        right: 0;
+    }
+    .locationInfoHolder {
+        height: 30%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        border: solid 0;
+        background-color: transparent;
+    }
+    .locationInfoHolder p {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: 200;
+        margin-left: 5%;
+        left: 0;
+    }
+    .locationInfoHolder h1 {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        margin-right: 10%;
+        text-align: end;
+        font-weight: 500;
+        padding: 2px;
+        font-size: 1.8rem;
+        right: 0;
+    }
+    .LinkedIn {
+        background-color: transparent;
+        border-radius: 50%;
+        color: #0072b1;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 2%;
+    }
+    .LinkedIn i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #0072b1;
+        cursor: pointer;
+    }
+    .Instagram {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 22%;
+    }
+    .Instagram i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .Snapchat {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 35%;
+    }
+    .Snapchat i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .GitHub {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 50%;
+    }
+    .GitHub i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .Mail {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 65%;
+    }
+    .Mail i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
 }
-/*Mobile*/
+/*PC*/
 @media screen and (min-width: 600px) {
+    .LinkedIn {
+        background-color: transparent;
+        border-radius: 50%;
+        color: #0072b1;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 2%;
+    }
+    .LinkedIn i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #0072b1;
+        cursor: pointer;
+    }
+    .Instagram {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 22%;
+    }
+    .Instagram i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .Snapchat {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 32%;
+    }
+    .Snapchat i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .GitHub {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 42%;
+    }
+    .GitHub i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .Mail {
+        background-color: transparent;
+        border-radius: 50%;
+        height: 100%;
+        width: 12%;
+        border: solid 0;
+        position: absolute;
+        left: 52%;
+    }
+    .Mail i {
+        padding: 18px;
+        font-size: 2rem;
+        text-align: center;
+        color: #d8dee9;
+        cursor: pointer;
+    }
+    .locationInfoHolder {
+        height: 30%;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        border: solid 0;
+        background-color: transparent;
+    }
+    .locationInfoHolder p {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: 200;
+        margin-left: 5%;
+        left: 0;
+    }
+    .locationInfoHolder h1 {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        margin-right: 10%;
+        text-align: end;
+        font-weight: 500;
+        padding: 2px;
+        font-size: 1.8rem;
+        right: 0;
+    }
+    .nameHolder p {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: 200;
+        margin-left: 5%;
+        left: 0;
+    }
+    .nameHolder h1 {
+        color: #d8dee9;
+        width: 50%;
+        position: absolute;
+        margin-right: 10%;
+        text-align: end;
+        font-weight: 500;
+        padding: 2px;
+        font-size: 1.8rem;
+        right: 0;
+    }
+    .statOne h1 {
+        text-align: center;
+        position: relative;
+        font-size: 4rem;
+        color: #d8dee9;
+        padding: 5px;
+    }
+    .statOne p {
+        font-size: 1rem;
+        font-weight: 400;
+        position: relative;
+        color: white;
+        text-align: center;
+    }
+    .statTwo h1 {
+        text-align: center;
+        position: relative;
+        font-size: 4rem;
+        color: white;
+        padding: 5px;
+    }
+    .statTwo p {
+        font-size: 1rem;
+        font-weight: 400;
+        position: relative;
+        color: white;
+        text-align: center;
+    }
+    .statThree h1 {
+        text-align: center;
+        position: relative;
+        font-size: 4rem;
+        color: #d8dee9;
+        padding: 5px;
+    }
+    .statThree p {
+        font-size: 1rem;
+        font-weight: 400;
+        position: relative;
+        color: #d8dee9;
+        text-align: center;
+    }
     .headerBlock {
         height: 26%;
         margin-left: 2%;
