@@ -8,8 +8,32 @@ body {
     overflow-x: hidden !important;
     margin: 0;
 }
+.blur {
+    filter: blur(25px);
+}
 /*Mobile*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+    .navBlock2 {
+        width: 15%;
+        height: 8%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: #3b4252;
+        position: absolute;
+        top: 0;
+        margin-top: 2%;
+        right: 0;
+        margin-right: 2%;
+    }
+    .navBlock2 i {
+        font-size: 2rem;
+        color: #d8dee9;
+        right: 0;
+        position: absolute;
+        padding: 16px;
+        cursor: pointer;
+        margin-right: 2%;
+    }
     .navBlock {
         width: 95%;
         height: 8%;
@@ -322,9 +346,53 @@ body {
         color: #d8dee9;
         cursor: pointer;
     }
+    .hamburgerMenu {
+        width: 100%;
+        background-color: transparent;
+        height: 100%;
+        top: 0%;
+        position: absolute;
+        border: solid 0;
+        border-radius: 15px;
+        z-index: 2;
+        right: 2%;
+    }
+    .nameHolder2 {
+        height: 30%;
+        width: 100%;
+        border: solid 0;
+        background-color: transparent;
+        position: absolute;
+        left: 0;
+        border-radius: 15px;
+        top: 0;
+    }
+    .nameHolder2 p {
+        font-weight: 200;
+        font-size: 1.4rem;
+        text-align: center;
+        color: white;
+    }
 }
 /*PC*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
+    .nameHolder2 {
+        height: 30%;
+        width: 100%;
+        border: solid 0;
+        background-color: transparent;
+        position: absolute;
+        left: 0;
+        border-radius: 15px;
+        top: 0;
+    }
+    .nameHolder2 p {
+        font-weight: 160;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 5%;
+        padding: 6px;
+    }
     .LinkedIn {
         background-color: transparent;
         border-radius: 50%;
@@ -539,6 +607,7 @@ body {
         right: 0;
         margin-right: 2%;
     }
+
     .navBlock i {
         font-size: 2rem;
         color: #d8dee9;
@@ -625,6 +694,27 @@ body {
         height: 30%;
         bottom: 0;
         position: absolute;
+    }
+    .navBlock2 {
+        width: 5%;
+        height: 8%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: #3b4252;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        margin-top: 2%;
+        right: 0;
+        margin-right: 2%;
+    }
+    .navBlock2 i {
+        font-size: 2rem;
+        color: #d8dee9;
+        text-align: center;
+        padding: 16px;
+        cursor: pointer;
+        margin-right: 2%;
     }
 }
 .statOne, .statThree, .statTwo {

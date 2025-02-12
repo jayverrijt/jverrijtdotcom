@@ -21,13 +21,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="<?php echo e(asset('assets/js/blur.js')); ?>"></script>
 </head>
 <body>
 <div class="container">
-    <div class="headerBlock">
+    <div class="headerBlock" id="hb">
         <h1>Breng Je Geweldige Ideeen Tot Leven</h1>
     </div>
-    <div class="statsBlock">
+    <div class="statsBlock" id="sb">
         <div class="statOne">
             <h1>2+</h1>
             <p>Jaren ervaring</p>
@@ -41,10 +44,10 @@
             <p>Clienten</p>
         </div>
     </div>
-    <div class="navBlock">
-        <i class="fas fa-bars"></i>
+    <div class="navBlock" id="nb">
+        <i onclick="blurOn()" class="fas fa-bars"></i>
     </div>
-    <div class="personalBlock">
+    <div class="personalBlock" id="pb">
         <div class="fotoHolder"></div>
         <div class="nameHolder">
             <p>Naam:</p>
@@ -76,8 +79,21 @@
             </div>
         </div>
     </div>
-    <div class="projectHolder"></div>
-    <div class="aboutHolder"></div>
+    <div class="projectHolder" id="ph">
+        <div class="nameHolder2">
+            <p>Projecten</p>
+        </div>
+    </div>
+    <div class="aboutHolder" id="ah">
+        <div class="nameHolder2">
+            <p>About me</p>
+        </div>
+    </div>
+    <div class="hamburgerMenu" id="hm" style="display: none !important;">
+        <div class="navBlock2">
+            <i onclick="blurOff()" class="fas fa-times"></i>
+        </div>
+    </div>
 </div>
 </body>
 </html>
