@@ -81,12 +81,38 @@
     </div>
     <div class="projectHolder" id="ph">
         <div class="nameHolder2">
-            <p>Projecten</p>
+            <p>Top Projects</p>
+        </div>
+        <div class="pjHolder">
+            <div class="pj1">
+                <div class="infoBox">
+                    <!--GoodLookz-->
+                    <h2>Good-Lookz</h2>
+                    <p>Gemaakt voor 4People Communications tijdens mijn stage. Hier kan je kleding onderling met je vrienden uitlenen zolang ze de zelfde maat hebben als jou.</p>
+                </div>
+                <img class="pjImg" src="<?php echo e(asset('logos/GL-transparent.png')); ?>">
+            </div>
+            <div class="pj2">
+                <div class="infoBox">
+                    <!--SensititivtyCheck-->
+                    <h2>Sensitivity-Check</h2>
+                    <p>Gemaakt voor 4People Communications tijdens en na mijn stage. Hier kan je testen of ja Hooggevoeligheid (HSP) hebt.</p>
+                </div>
+                <img class="pjImg" src="<?php echo e(asset('logos/SC-transparent.png')); ?>">
+            </div>
+            <div class="pj3">
+                <div class="infoBox">
+                    <!--GeldBegeleiding-->
+                    <h2>GeldBegeleiding</h2>
+                    <p>Website gemaakt voor Geld Begeleiding BV. Op de webite kan je je aanmelden voor de nieuwsbrief, workshops en service informatie</p>
+                </div>
+                <img class="pjImg" src="<?php echo e(asset('logos/GB-transparent.png')); ?>">
+            </div>
         </div>
     </div>
     <div class="aboutHolder" id="ah">
         <div class="nameHolder2">
-            <p>About me</p>
+            <p id="am">About me</p>
         </div>
     </div>
     <div class="hamburgerMenu" id="hm" style="display: none !important;">

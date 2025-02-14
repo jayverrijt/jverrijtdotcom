@@ -373,6 +373,42 @@ body {
         text-align: center;
         color: white;
     }
+    .pjHolder {
+        bottom: 0;
+        position: absolute;
+        height: 70%;
+        width: 100%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: transparent;
+        display: inline-block;
+    }
+    .pj1 {
+        height: 92%;
+        width: 45%;
+        margin-left: 3%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        border: solid 0;
+        background-color: #434c5e;
+        border-radius: 15px;
+    }
+    .pj2 {
+        height: 92%;
+        width: 45%;
+        position: absolute;
+        border: solid 0;
+        right: 0;
+        overflow: hidden;
+        margin-right: 3%;
+        background-color: #434c5e;
+        border-radius: 15px;
+    }
+    .pj3 {
+        display: none !important;
+        overflow: hidden;
+    }
 }
 /*PC*/
 @media screen and (min-width: 700px) {
@@ -386,11 +422,59 @@ body {
         border-radius: 15px;
         top: 0;
     }
+    .pjHolder {
+        bottom: 0;
+        position: absolute;
+        height: 70%;
+        width: 100%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: transparent;
+        display: inline-block;
+    }
+    .pj1 {
+        height: 92%;
+        width: 30%;
+        margin-left: 2%;
+        position: absolute;
+        top: 0;
+        border: solid 0;
+        overflow: hidden;
+        background-color: #434c5e;
+        border-radius: 15px;
+    }
+    .pj2 {
+        height: 92%;
+        width: 30%;
+        left: 29%;
+        margin-left: 5%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        border: solid 0;
+        background-color: #434c5e;
+        border-radius: 15px;
+    }
+    .pj3 {
+        height: 92%;
+        width: 30%;
+        left: 61%;
+        margin-left: 5%;
+        position: absolute;
+        top: 0;
+        border: solid 0;
+        overflow: hidden;
+        background-color: #434c5e;
+        border-radius: 15px;
+    }
+    #am {
+        margin-left: 5% !important;
+    }
     .nameHolder2 p {
         font-weight: 160;
         font-size: 1.5rem;
         color: white;
-        margin-left: 5%;
+        margin-left: 2%;
         padding: 6px;
     }
     .LinkedIn {
@@ -738,3 +822,50 @@ body {
     background-color: #bf616a;
 }
 
+.infoBox {
+    bottom: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    background: #5e81ac;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 15px;
+}
+.infoBox h2 {
+    font-size: 1.5rem;
+    margin-left: 2%;
+    color: #d8dee9;
+}
+.infoBox p {
+    font-size: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #d8dee9;
+}
+.pj1:hover > .infoBox {
+    bottom: 0;
+}
+.pj1:hover > .pjImg {
+    display: none !important;
+}
+.pj2:hover > .infoBox {
+    bottom: 0;
+}
+.pj2:hover > .pjImg {
+    display: none !important;
+}
+.pj3:hover > .infoBox {
+    bottom: 0;
+}
+.pj3:hover > .pjImg {
+    display: none !important;
+}
+.pjImg {
+    height: 80%;
+    width: 50%;
+    padding: 16px;
+    display: block;
+    position: absolute;
+    top: 0 !important;
+    left: 15%;
+}
