@@ -409,9 +409,65 @@ body {
         display: none !important;
         overflow: hidden;
     }
+    .navItem {
+        width: 30%;
+        height: 10%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: #3b4252;
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        margin-top: 2%;
+        right: 0;
+        margin-right: 2%
+    }
+    .navItem a {
+        color: #d8dee9;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    #item2 {
+        top: 22%;
+        position: absolute;
+    }
+    #item3 {
+        top: 34%;
+        position: absolute;
+    }
 }
 /*PC*/
 @media screen and (min-width: 700px) {
+    .navItem {
+        width: 10%;
+        height: 8%;
+        border-radius: 15px;
+        border: solid 0;
+        background-color: #3b4252;
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        margin-top: 2%;
+        right: 0;
+        margin-right: 2%
+    }
+    .navItem a {
+        color: #d8dee9;
+        font-size: 1.4rem;
+    }
+    #item2 {
+        top: 20%;
+        position: absolute;
+    }
+    #item3 {
+        top: 30%;
+        position: absolute;
+    }
+    .navItemP {
+        position: relative;
+        text-align: center;
+        font-weight: 500;
+    }
     .nameHolder2 {
         height: 30%;
         width: 100%;
@@ -868,4 +924,9 @@ body {
     position: absolute;
     top: 0 !important;
     left: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

@@ -85,7 +85,7 @@
         </div>
         <div class="pjHolder">
             <div class="pj1">
-                <div class="infoBox">
+                <div class="infoBox" onclick="window.open('{{route('welcome')}}')">
                     <!--GoodLookz-->
                     <h2>Good-Lookz</h2>
                     <p>Gemaakt voor 4People Communications tijdens mijn stage. Hier kan je kleding onderling met je vrienden uitlenen zolang ze de zelfde maat hebben als jou.</p>
@@ -93,7 +93,7 @@
                 <img class="pjImg" src="{{asset('logos/GL-transparent.png')}}">
             </div>
             <div class="pj2">
-                <div class="infoBox">
+                <div class="infoBox" onclick="window.open('{{route('welcome')}}')">
                     <!--SensititivtyCheck-->
                     <h2>Sensitivity-Check</h2>
                     <p>Gemaakt voor 4People Communications tijdens en na mijn stage. Hier kan je testen of ja Hooggevoeligheid (HSP) hebt.</p>
@@ -101,7 +101,7 @@
                 <img class="pjImg" src="{{asset('logos/SC-transparent.png')}}">
             </div>
             <div class="pj3">
-                <div class="infoBox">
+                <div class="infoBox" onclick="window.open('{{route('welcome')}}')">
                     <!--GeldBegeleiding-->
                     <h2>GeldBegeleiding</h2>
                     <p>Website gemaakt voor Geld Begeleiding BV. Op de webite kan je je aanmelden voor de nieuwsbrief, workshops en service informatie</p>
@@ -118,6 +118,15 @@
     <div class="hamburgerMenu" id="hm" style="display: none !important;">
         <div class="navBlock2">
             <i onclick="blurOff()" class="fas fa-times"></i>
+        </div>
+        <div class="navItem">
+            <a href="{{route('welcome')}}"><p class="navItemP">Home</p></a>
+        </div>
+        <div id="item2" class="navItem">
+            <a href="{{route('projects.index')}}"><p class="navItemP">Projecten</p></a>
+        </div>
+        <div id="item3" class="navItem">
+            <a href="{{route('contact.index')}}"><p class="navItemP">Contact</p></a>
         </div>
     </div>
 </div>
